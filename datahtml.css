@@ -1,0 +1,109 @@
+#main-area {
+  width: 840px;
+  height: 500px;
+  background-color: rgb(112, 112, 112);
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+#sidebar {
+  width: 500px;
+  height: 500px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(114, 114, 114);
+  float: right;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+#white {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#nav-select {
+  margin-top: 15px;
+}
+
+p {
+  text-indent: 20px;
+  text-emphasis: accent;
+  text-anchor: middle;
+}
+
+h1 {
+  text-decoration-color: rgb(170, 170, 170);
+  text-align: center;
+}
+
+.container col-md-6 {
+  margin-right: 8px;
+}
+
+table.steelBlueCols {
+  border: 4px solid #555555;
+  background-color: #555555;
+  width: 1500px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table.steelBlueCols td,
+table.steelBlueCols th {
+  border: 1px solid #555555;
+  padding: 5px 10px;
+}
+
+table.steelBlueCols tbody td {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+table.steelBlueCols td:nth-child(even) {
+  background: rgb(0, 128, 0);
+}
+
+table.steelBlueCols thead {
+  background: rgb(0, 128, 0);
+  border-bottom: 10px rgb(0, 128, 0);
+}
+
+table.steelBlueCols thead th {
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+  border-left: 2px solid rgb(0, 128, 0);
+}
+
+table.steelBlueCols thead th:first-child {
+  border-left: none;
+}
+
+table.steelBlueCols tfoot td {
+  font-size: 13px;
+}
+
+table.steelBlueCols tfoot .links {
+  text-align: right;
+}
+
+table.steelBlueCols tfoot .links a {
+  display: inline-block;
+  background: #FFFFFF;
+  color: rgb(0, 128, 0);
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+
+footer {
+height: 20px;
+color: rgb(0, 128, 0);
+}
