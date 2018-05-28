@@ -16,7 +16,7 @@ table.dataTable.display tbody tr.odd {
 }
 
 #ufo-loading {
-    align-items: center
+    text-align: center;
 }
 
 
